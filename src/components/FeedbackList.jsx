@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { motion, AnimatePresence } from 'framer-motion'
 import { useContext } from 'react'
+=======
+>>>>>>> parent of 53d26d5 (Card component)
 import FeedbackItem from './FeedbackItem'
 import Spinner from './shared/Spinner'
 import FeedbackContext from '../context/FeedbackContext'
@@ -30,6 +33,7 @@ function FeedbackList() {
     </div>
   )
 
+<<<<<<< HEAD
   // return (
   //   <div className='feedback-list'>
   //     {feedback.map((item) => (
@@ -39,4 +43,6 @@ function FeedbackList() {
   // )
 }
 
+=======
+>>>>>>> parent of 53d26d5 (Card component)
 export default FeedbackList
